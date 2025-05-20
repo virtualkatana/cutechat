@@ -16,6 +16,8 @@ qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appcutechat
     main.cpp
+        src/Ciao.cpp
+        src/Ciao.h
 )
 
 qt_add_qml_module(appcutechat
